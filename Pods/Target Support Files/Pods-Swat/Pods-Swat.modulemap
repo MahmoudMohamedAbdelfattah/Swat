@@ -1,0 +1,6 @@
+framework module Pods_Swat {
+  umbrella header "Pods-Swat-umbrella.h"
+
+  export *
+  module * { export * }
+}

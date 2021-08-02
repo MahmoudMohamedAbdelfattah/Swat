@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sukar Bold.ttf">
+            <string>Sukar-Bold</string>
+        </array>
+        <array key="Sukar Regular.ttf">
+            <string>Sukar-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="customerdatacell" customModule="Swat" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="298"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="298"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2U7-YD-p9p">
+                        <rect key="frame" x="0.0" y="0.0" width="374" height="298"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvj-sc-Qwh">
+                                <rect key="frame" x="39.5" y="30" width="295" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUS-Bb-zOJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="kwB-1O-Iio"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم المرسل : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8y-KZ-gdU">
+                                        <rect key="frame" x="200" y="0.0" width="95" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="95" id="z7s-PO-kZ6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="fby-Gp-00J"/>
+                                    <constraint firstAttribute="height" constant="15" id="qtn-Vg-Us8"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YHO-9c-CgQ">
+                                <rect key="frame" x="104" y="57" width="250" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SW9-HF-yCH">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="15"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الموسسة :  " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSq-bF-jYP">
+                                        <rect key="frame" x="140" y="0.0" width="110" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="1KM-f1-kci"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="9zb-CS-7wJ"/>
+                                    <constraint firstAttribute="height" constant="15" id="xcJ-AF-Eps"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JBe-3T-dfs">
+                                <rect key="frame" x="104" y="84" width="250" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xv7-4c-a5R">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="15"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مجال العمل :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXJ-zg-nUl">
+                                        <rect key="frame" x="160" y="0.0" width="90" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="qMl-T1-Vx6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="15s-2d-tWc"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="VkD-9E-XgI"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZG-nu-gHM">
+                                <rect key="frame" x="104" y="111" width="250" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhQ-IE-jX3">
+                                        <rect key="frame" x="0.0" y="0.0" width="190" height="15"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الايميل :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLM-ar-E3Z">
+                                        <rect key="frame" x="190" y="0.0" width="60" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="7mM-Pz-FVd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="ess-i0-HFq"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="l3U-6B-HLJ"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qkt-mp-iJx">
+                                <rect key="frame" x="104" y="138" width="250" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXq-2i-Shx">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="15"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="رقم التليفون :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sei-YJ-Zxj">
+                                        <rect key="frame" x="150" y="0.0" width="100" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="3aF-8w-8h4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="6jM-0C-tmy"/>
+                                    <constraint firstAttribute="height" constant="15" id="GhF-FP-OC6"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQg-E7-HZn">
+                                <rect key="frame" x="104" y="165" width="250" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jx-ln-Wf2">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="15"/>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم المسؤل :" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvF-EG-sZZ">
+                                        <rect key="frame" x="150" y="0.0" width="100" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="ltN-Vz-rfB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="eZr-5t-8hY"/>
+                                    <constraint firstAttribute="height" constant="15" id="suR-f7-8hp"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0hQ-2R-3BS">
+                                <rect key="frame" x="44" y="192" width="310" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1M-ev-PgD">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="2ia-jc-bvQ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="العنوان :     " textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKR-ML-E19">
+                                        <rect key="frame" x="250" y="0.0" width="60" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="Wtv-ia-DSs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="6FZ-gI-v35"/>
+                                    <constraint firstAttribute="height" constant="15" id="Yju-mL-FNN"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMm-1Y-fCY">
+                                <rect key="frame" x="87" y="219" width="200" height="15"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZN-sC-Kxd">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="140" id="Fw3-og-Ko1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Regular" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التاريخ :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bG-EM-Q82">
+                                        <rect key="frame" x="140" y="0.0" width="60" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="aXu-9r-ptP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Sukar-Bold" family="Sukar" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="K3k-sT-zQD"/>
+                                    <constraint firstAttribute="height" constant="15" id="vFI-yQ-YAV"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Qkt-mp-iJx" firstAttribute="top" secondItem="mZG-nu-gHM" secondAttribute="bottom" constant="12" id="4KD-ya-fKI"/>
+                            <constraint firstItem="mZG-nu-gHM" firstAttribute="top" secondItem="JBe-3T-dfs" secondAttribute="bottom" constant="12" id="70t-Yb-Vvn"/>
+                            <constraint firstItem="JBe-3T-dfs" firstAttribute="top" secondItem="YHO-9c-CgQ" secondAttribute="bottom" constant="12" id="78W-9W-9Zu"/>
+                            <constraint firstAttribute="trailing" secondItem="Qkt-mp-iJx" secondAttribute="trailing" constant="20" id="8xU-hE-zTc"/>
+                            <constraint firstAttribute="trailing" secondItem="RQg-E7-HZn" secondAttribute="trailing" constant="20" id="C8c-h5-O5o"/>
+                            <constraint firstItem="YHO-9c-CgQ" firstAttribute="top" secondItem="cvj-sc-Qwh" secondAttribute="bottom" constant="12" id="H4b-LP-zAq"/>
+                            <constraint firstAttribute="width" constant="374" id="JZZ-hh-eVG"/>
+                            <constraint firstAttribute="trailing" secondItem="mZG-nu-gHM" secondAttribute="trailing" constant="20" id="LQy-pA-fvP"/>
+                            <constraint firstItem="eMm-1Y-fCY" firstAttribute="centerX" secondItem="2U7-YD-p9p" secondAttribute="centerX" id="Mww-fP-Xf6"/>
+                            <constraint firstAttribute="trailing" secondItem="JBe-3T-dfs" secondAttribute="trailing" constant="20" id="NIo-D7-mSV"/>
+                            <constraint firstItem="0hQ-2R-3BS" firstAttribute="top" secondItem="RQg-E7-HZn" secondAttribute="bottom" constant="12" id="Uc7-JK-71q"/>
+                            <constraint firstAttribute="trailing" secondItem="YHO-9c-CgQ" secondAttribute="trailing" constant="20" id="Xuq-AB-pgN"/>
+                            <constraint firstAttribute="height" constant="298" id="kzN-pf-9Ga"/>
+                            <constraint firstItem="cvj-sc-Qwh" firstAttribute="centerX" secondItem="2U7-YD-p9p" secondAttribute="centerX" id="l6W-ps-od0"/>
+                            <constraint firstItem="cvj-sc-Qwh" firstAttribute="top" secondItem="2U7-YD-p9p" secondAttribute="top" constant="30" id="oNw-BX-D2e"/>
+                            <constraint firstItem="RQg-E7-HZn" firstAttribute="top" secondItem="Qkt-mp-iJx" secondAttribute="bottom" constant="12" id="wRv-VA-MDe"/>
+                            <constraint firstItem="eMm-1Y-fCY" firstAttribute="top" secondItem="0hQ-2R-3BS" secondAttribute="bottom" constant="12" id="xyN-GB-2EA"/>
+                            <constraint firstAttribute="trailing" secondItem="0hQ-2R-3BS" secondAttribute="trailing" constant="20" id="yID-DT-9QJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="2U7-YD-p9p" secondAttribute="bottom" id="9Y1-fq-bSc"/>
+                <constraint firstItem="2U7-YD-p9p" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QiK-6C-huA"/>
+                <constraint firstItem="2U7-YD-p9p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UKv-aU-Bs8"/>
+                <constraint firstAttribute="trailing" secondItem="2U7-YD-p9p" secondAttribute="trailing" id="u4f-v3-Cg3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="374" height="298"/>
+            <connections>
+                <outlet property="AddressTxt" destination="C1M-ev-PgD" id="11F-Ui-zWM"/>
+                <outlet property="DateTxt" destination="JZN-sC-Kxd" id="zR6-F7-9e3"/>
+                <outlet property="EmailTxt" destination="YhQ-IE-jX3" id="VM1-8o-EAy"/>
+                <outlet property="FieldWork" destination="xv7-4c-a5R" id="Hha-4U-Ofv"/>
+                <outlet property="NameOrgniztion" destination="SW9-HF-yCH" id="LPe-6x-Oh0"/>
+                <outlet property="NameResponsible" destination="4Jx-ln-Wf2" id="fPY-Wz-7z4"/>
+                <outlet property="NameSales" destination="qUS-Bb-zOJ" id="VNN-vL-Xcm"/>
+                <outlet property="PhonTxt" destination="UXq-2i-Shx" id="oOl-bp-OQd"/>
+            </connections>
+            <point key="canvasLocation" x="175.36231884057972" y="172.09821428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>
